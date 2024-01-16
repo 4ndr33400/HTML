@@ -59,9 +59,8 @@ header {
     background-color:white;
     float: left;
     margin: 30px;
-    margin-left: 63px;
-    margin-right: 20px;
-    border-radius: 10px;
+    margin-left: 3%;
+   
   }
   
   .card:hover {
@@ -74,18 +73,16 @@ header {
   
   .button {
     background-color:#191970;
-    border: none;
     color: white;
-    padding: 11px 32px;
+    padding: 2% 20%;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 10px 15px;
+    font-size: 120%;
+    margin: 5% 0%;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    margin-left: 55px;
+    margin-left: 7%;
     border-radius: 20px 5px;
   }
   .button2:hover {
@@ -106,4 +103,94 @@ header {
     text-align: center;
     padding: 20px;
     color: white;
+    margin-bottom: 1%;
+  }
+  .parrafo1{
+    font-size: 80%; 
+    margin-left: 15px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+    text-align: center;
+  }
+  .parrafo2{
+    font-size: 15px;
+    color: #191970; 
+    margin-bottom: 2px; 
+    margin-left: 25px; 
+    margin-top: 0px;
+  }
+  .parrafo3{
+    font-size: 20px; 
+    margin-top: 3px; 
+    margin-left: 25px;
+  }
+  .parrafo4{
+    text-align:center;
+    font-size: 15px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .play4_play5Header{
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 16px;
+    background-color: white;
+    margin: 70px;
+    margin-left: 400px;
+    
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .registerbtn {
+    background-color:#191970;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }   
+  .contact{
+    padding: 16px;
+    background-color: white;
+    margin: 70px;
+    margin-right: 900px;
   }
