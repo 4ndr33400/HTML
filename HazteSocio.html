@@ -41,6 +41,44 @@
       <p>Ya tienes una cuenta? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign in</a>.</p>
     </div>
   </form>
+
+  <script>
+  
+  document.getElementById('formulario').addEventListener('submit', function(event) {
+  var nombre = document.getElementById('nombre');
+  var email = document.getElementById('email');
+  var contraseña = document.getElementById('contraseña');
+  var errorNombre = document.getElementById('error-nombre');
+  var errorEmail = document.getElementById('error-email');
+  var errorContraseña = document.getElementById('error-contraseña');
+  var errores = false;
+  
+  if (nombre.value.trim() == '') {
+    errorNombre.textContent = 'Por favor ingresa tu nombre';
+    errores = true;
+  } else {
+    errorNombre.textContent = '';
+  }
+  
+  if (email.value.trim() == '') {
+    errorEmail.textContent = 'Por favor ingresa tu email';
+    errores = true;
+  } else {
+    errorEmail.textContent = '';
+  }
+  
+  if (contraseña.value.length < 8) {
+    errorContraseña.textContent = 'La contraseña debe tener al menos 8 caracteres';
+    errores = true;
+  } else {
+    errorContrasena.textContent = '';
+  }
+  
+  if (errores) {
+    event.preventDefault(); 
+  }
+});
+  </script>
  
   <footer> 2023 The Geek Corner</footer>
 
